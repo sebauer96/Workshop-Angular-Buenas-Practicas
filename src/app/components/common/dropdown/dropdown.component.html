@@ -1,0 +1,6 @@
+<div ngbDropdown class="d-inline-block">
+  <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Seleccione ubicación</button>
+  <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+    <button ngbDropdownItem *ngFor="let country of listCountries" (click)="selectCountry(country.id)">{{country.pais}}</button>
+  </div>
+</div>

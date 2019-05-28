@@ -1,0 +1,7 @@
+.borderClick{
+    border-style: solid;
+    border-color: blue;
+}
+.clicklable{
+    cursor: pointer;
+}
